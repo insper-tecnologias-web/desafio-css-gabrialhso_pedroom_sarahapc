@@ -2,8 +2,9 @@
 
 DUPLA:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
+- Gabriel Onishi
+- Pedro Mahfuz
+- Sarah Pimenta
 - Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
 
 ## Desafio CSS
