@@ -12,7 +12,7 @@ Algumas informações úteis e dicas:
       #fcb02b
     Tons de cinza:
       #2c2c2c
-      #4c4c4c
+      #4c4c4c 
     Cores dos cards:
       #ead3a7
       #9de0f5
@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,158 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+
+/* box superior */
+.appbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7d736;
+  box-shadow: 0px 1px 4px black;
+}
+
+/* imagem do logo */
+.logo{
+  display: flex;
+  width: 7%;
+  padding: 1%;
+}
+
+/* caixa que engloba box titulo e os depois cartes coloridos*/
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* box título */
+.form-card{
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  box-shadow: 0px 1px 4px black;
+  padding: 10px 15px;
+  border: 1px transparent black;
+  border-radius: 5px;
+  width: 40%;
+}
+
+/* Titulo */
+.form-card-title{
+  font-weight: bold;
+  border-style: none;
+  margin: 0.5%;
+}
+
+/* Box digite conteúdo */
+.autoresize{
+  border-style: none;
+  margin: 1%;
+  resize: none;
+}
+
+/* Box com todos os cards */
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Permanent Marker', cursive;
+  justify-content: space-around;
+}
+
+/* Box de cada card */
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1%;
+  box-shadow: 0px 1px 4px black;
+  width: 10%;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+/* Título do card */
+.cart-title{
+  font-weight: bold;
+  padding: 1%;
+}
+
+/* Conteúdo do card */
+.cart-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 10%;
+}
+
+/* cor dos cards */
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba ;
+}
+
+.card-color-4{
+  background-color: #fae890 ;
+}
+
+.card-color-5{
+  background-color:#abe9c1 ;
+}
+
+/* usar transform pra rotacionar */
+/* rotação dos cards */
+.card-rotation-1{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-2deg);
+}
+
+.card-rotation-3{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-4deg);
+}
+
+.card-rotation-5{
+  transform: rotate(5deg);
+}
+
+.card-rotation-6{
+  transform: rotate(4deg);
+}
+
+.card-rotation-7{
+  transform: rotate(3deg);
+}
+
+.card-rotation-8{
+  transform: rotate(2deg);
+}
+
+.card-rotation-9{
+  transform: rotate(1deg);
+}
+
+.card-rotation-10{
+  transform: rotate(-1deg);
+}
+
+.card-rotation-11{
+  transform: rotate(6deg);
+}
