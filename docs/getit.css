@@ -141,8 +141,7 @@ body {
 .card{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
   margin: 1%;
   box-shadow: 0px 1px 4px black;
   width: 10%;
@@ -151,19 +150,18 @@ body {
 }
 
 /* Título do card */
-.cart-title{
+.card-title{
   font-weight: bold;
   padding: 1%;
 }
 
 /* Conteúdo do card */
-.cart-content{
+.card-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  margin: 10%;
 }
 
 /* cor dos cards */
